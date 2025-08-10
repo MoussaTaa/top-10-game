@@ -44,7 +44,25 @@ document.addEventListener('DOMContentLoaded', function() {
         'Top 10 Fastest Growing Economies': {
             answers: ['Guyana', 'Macao', 'Fiji', 'Libya', 'Palau', 'Dominican Republic', 'Ethiopia', 'Bangladesh', 'Vietnam', 'India'],
             topic: 'fastest growing economies'
+        },
+        // New Quizzes
+        'Top 10 Oldest Countries in the World': {
+        answers: ['Egypt', 'Iran', 'Japan', 'China', 'India', 'Greece', 'Ethiopia', 'Portugal', 'San Marino', 'France'],
+        topic: 'oldest countries in the world'
+        },
+        'Top 10 Smartest Countries in the World': {
+            answers: ['Singapore', 'Hong Kong', 'South Korea', 'Japan', 'Taiwan', 'Finland', 'Netherlands', 'Canada', 'Switzerland', 'United Kingdom'],
+            topic: 'smartest countries in the world'
+        },
+        'Top 10 Immigrant Groups in the USA': {
+            answers: ['Mexico', 'India', 'China', 'Philippines', 'El Salvador', 'Vietnam', 'Cuba', 'Dominican Republic', 'Guatemala', 'Korea'],
+            topic: 'immigrants in USA'
+        },
+        'Top 10 Immigrant Groups in Germany': {
+            answers: ['Turkey', 'Poland', 'Syria', 'Romania', 'Italy', 'Croatia', 'Greece', 'Russia', 'Serbia', 'Bulgaria'],
+            topic: 'immigrants in Germany'
         }
+
     };
     
     let currentQuiz = null;
